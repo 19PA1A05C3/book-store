@@ -1,0 +1,66 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+td, th{
+    border: 2px solid black;
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+mark{
+    background-color: white;
+}
+
+mark:hover{
+    background-color: yellow;
+}
+
+.clr{
+    background-color: yellow;
+}
+
+.distance td{
+    height: 500px;
+    text-align: center;
+}
+
+.distance2 td{
+    text-align: center;
+}
+
+.leveling{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bgc{
+    display: inline-block; 
+    width: 120px;
+}
+
+.ll{
+    width: 236px;
+    text-align: center;
+}
+
+.brt td{
+    /* border: 2px solid blueviolet; */
+    border-top: none;
+    border-bottom: none;
+}
+
+@media (max-width: 480px){
+    /* .sym{
+        position: absolute;
+        top: 450px;
+    } */
+}
